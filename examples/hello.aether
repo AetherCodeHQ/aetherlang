@@ -1,0 +1,8 @@
+fn main() {
+    print("Hello, AetherLang!");
+    let x = 42;
+    let name = "AetherCode";
+    if (x > 40) {
+        print("The answer is " + name);
+    }
+}
