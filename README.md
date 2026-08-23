@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-00ADD8?style=for-the-badge)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![CodeQL](https://img.shields.io/badge/CodeQL-Security-00ADD8?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-v1.0.0-00ADD8?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v2.0.0-00ADD8?style=for-the-badge)
 
 > Custom programming language with lexer, parser, AST, bytecode compiler, and VM - written in Go
 
@@ -110,7 +110,7 @@ MIT License - see [LICENSE](LICENSE)
 
 ---
 
-## What's New in v1.1.0
+## What's New in v2.0.0
 
 - Professional documentation with badges
 - CI/CD pipeline with GitHub Actions
@@ -132,6 +132,15 @@ Part of [AetherCode Core](https://github.com/AetherCode-Core) ecosystem.
 
 ---
 ## Changelog
-### v2026.08.23-2208
+### v2.0.0-2208
 - Auto updated
-- Tag: `v2026.08.23-2208`
+- Tag: `v2.0.0-2208`
+
+## What's New in v2.0.0
+
+- **Real Implementation**: All code rewritten from stubs to working tools
+- **CLI Interface**: Full command-line interface with subcommands
+- **Error Handling**: Comprehensive error handling throughout
+- **Documentation**: Updated with usage examples
+
+See [CHANGELOG.md](CHANGELOG.md) for full details.
