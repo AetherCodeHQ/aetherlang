@@ -129,3 +129,9 @@ MIT License - see [LICENSE](LICENSE)
 ## Related Projects
 
 Part of [AetherCode Core](https://github.com/AetherCode-Core) ecosystem.
+
+---
+## Changelog
+### v2026.08.23-2208
+- Auto updated
+- Tag: `v2026.08.23-2208`
