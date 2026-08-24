@@ -1,153 +1,95 @@
-# AetherLang
+# 🌌 aetherlang
 
-![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-00ADD8?style=for-the-badge)
-![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![CodeQL](https://img.shields.io/badge/CodeQL-Security-00ADD8?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-v2.1.0-00ADD8?style=for-the-badge)
+![Go](https://img.shields.io/badge/Go-1.21%2B-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Version](https://img.shields.io/badge/Version-v2.1.0-00ADD8?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)
 
-> Custom programming language with lexer, parser, AST, bytecode compiler, and VM - written in Go
+> AetherCore tool by [AetherCodeHQ](https://github.com/AetherCodeHQ)
 
-`programming-language` `compiler` `virtual-machine` `bytecode` `lexer` `parser` `golang` `ast`
-
----
-
-## What is it?
-
-**AetherLang** is A complete programming language ecosystem: lexer, parser, AST, bytecode compiler, and virtual machine. Write .aether files and run them on your own runtime.
-
-## Why should you care?
-
-- **Fast** - Compiled Go binary, zero overhead
-- **Secure** - CodeQL analysis + Dependabot
-- **Offline-first** - Works without internet
-- **Lightweight** - Single binary deployment
-- **Developer-friendly** - Clean CLI with docs
+`aethercore` `security` `cli` `golang`
 
 ---
+
+## What is aetherlang?
+
+**aetherlang** is part of the AetherCore security ecosystem — a zero-dependency, pure Go security utility.
 
 ## Features
 
-- Custom lexer with token types
-- Recursive descent parser
-- AST generation
-- Bytecode compiler
-- Stack-based VM
-- Built-in functions (print, len, type)
-- Variables, loops, conditionals
-- Functions with closures
-- String manipulation
-- Error handling with line numbers
+- ✅ `printUsage()` — Printusage
+- ✅ `runFile()` — Runfile
+- ✅ `startREPL()` — Startrepl
+- ✅ `Execute()` — Execute
+- ✅ `Tokenize()` — Tokenize
+- 🚀 **Zero dependencies** — only Go standard library
+- 📦 **Single binary** — compile and run anywhere
+- 🔄 **Offline capable** — no internet required
 
----
+## Installation
 
-## Quick Start
-
-### Prerequisites
-- Go 1.21 or higher
-
-### Install from source
 ```bash
+# Clone
 git clone https://github.com/AetherCodeHQ/aetherlang.git
 cd aetherlang
+
+# Build
 go build -o aetherlang .
+
+# Run
+./aetherlang Usage:
 ```
 
-### Run
+### Or directly with `go run`:
 ```bash
-./aetherlang --help
+go run main.go Usage:
 ```
-
----
 
 ## Usage
 
-./aether run hello.aether  OR  ./aether repl  OR  ./aether compile hello.aether -o hello.ab
-
----
-
-## CLI Flags
-
-| Flag | Description | Default |
-|------|-------------|---------|
-| `--path` | Target directory | `.` |
-| `--format` | Output format (json, text) | `text` |
-| `--output` | Output filename | `stdout` |
-| `--verbose` | Enable verbose output | `false` |
-
----
-
-## Development
-
 ```bash
-git clone https://github.com/AetherCodeHQ/aetherlang.git
-cd aetherlang
-go build -o aetherlang .
-go test ./...
-golangci-lint run
+# Basic usage
+./aetherlang Usage:
+
+# With flags
+./aetherlang Usage: value Usage:
 ```
 
----
+### Example Output
+
+```
+$ ./aetherlang Usage:
+AetherLang %s\n
+Custom programming language with lexer, parser, AST, bytecode compiler, and VM
+AetherLang - Custom programming language
+```
+
+## Project Structure
+
+```
+aetherlang/
+  main.go          # Entry point (129 lines)
+  go.mod            # Go module definition
+  go.sum            # Dependency checksums
+  README.md         # This file
+  LICENSE           # MIT License
+  CHANGELOG.md      # Version history
+```
 
 ## Contributing
 
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## Security
-
-Report to: aethercode.core@gmail.com | See [SECURITY.md](SECURITY.md)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
 
-MIT License - see [LICENSE](LICENSE)
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-<p align="center">
-  Built with love by <a href="https://github.com/AetherCodeHQ">AetherCode</a> | <a href="https://github.com/AetherCode-Core">AetherCode Core</a>
-</p>
-
-
----
-
-## What's New in v2.0.0
-
-- Professional documentation with badges
-- CI/CD pipeline with GitHub Actions
-- Security analysis with CodeQL
-- Dependency management with Dependabot
-- Code quality with GolangCI-Lint
-- Issue and PR templates
-- Contributing guidelines
-
-## Categories
-
-| Category | Description |
-|----------|-------------|
-| Other | This project is part of the AetherCode ecosystem |
-
-## Related Projects
-
-Part of [AetherCode Core](https://github.com/AetherCode-Core) ecosystem.
-
----
-## Changelog
-### v2.0.0-2208
-- Auto updated
-- Tag: `v2.0.0-2208`
-
-## What's New in v2.0.0
-
-- **Real Implementation**: All code rewritten from stubs to working tools
-- **CLI Interface**: Full command-line interface with subcommands
-- **Error Handling**: Comprehensive error handling throughout
-- **Documentation**: Updated with usage examples
-
-See [CHANGELOG.md](CHANGELOG.md) for full details.
-
-
-## What's new in v2.1.0
-
-- Clean CLI with subcommands
-- Robust error handling
-- Fast, standard-library-only implementation
+Built with ❤️ by [AetherCodeHQ](https://github.com/AetherCodeHQ)
